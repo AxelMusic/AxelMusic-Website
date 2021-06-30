@@ -10,8 +10,9 @@ This is open source as it is hosted with GithubPages
   </a>
 
 <a href="https://discord.gg/RNXU4mXQnv">
- <iframe src="https://discord.com/widget?id=795642389661351957&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+  <img src="https://discord.com/widget?id=795642389661351957&theme=dark" alt="AxelMusic" />
   </a>
 
 Visit [here](https://amusic.xyz)
+
 Forked from this [repo](https://github.com/trustedmercury/discord-bot-website-template)
