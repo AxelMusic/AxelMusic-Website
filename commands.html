@@ -33,7 +33,17 @@
 	<meta name="author" content="AxelMusic">
 
 	<link rel="icon" href="images/botLogo.png" alt="Avatar">
-
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="/static/assets/css/Article-List.css">
+    <link rel="stylesheet" href="/static/assets/css/Brands.css">
+    <link rel="stylesheet" href="/static/assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="/static/assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="/static/assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="/static/assets/css/styles.css">
 	<link rel="stylesheet" href="styles/theTrendingStyle.css">
 	<link rel="stylesheet" href="styles/index.css">
 	<link rel="stylesheet" href="styles/css/all.css" />
@@ -43,7 +53,8 @@
 <body class="bg-shinyGray overflow-x-hidden">
 	<nav id="navigationBar" class="flex flex-row items-center justify-between p-6 bg-sweetBlack">
 		<div class="left flex flex-row items-center ml-10 md:ml-20 text-white">
-			<img src="images/botLogo.png" width="48px" height="48px" class="mr-2 hidden md:inline pointer-events-none noselect" />
+	<img src="images/botLogo.png" width="48px" height="48px" class="mr-2 hidden md:inline pointer-events-none noselect" />
+    
       <a href="https://amusic.xyz" class="mx-4 text-xl hover:text-blurple">Home</a>
       <a href="commands" class="mx-4 text-xl hover:text-blurple hidden md:inline">Commands</a>
          <a href="premium" class="mx-4 text-xl hover:text-blurple hidden md:inline">Premium</a>
@@ -119,9 +130,14 @@
         box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
     }
     
-    @media only screen and (max-width: 768px) {
+    @media screen and (min-width:1px) and (max-width:1024) {
         table {
-            width: 90%;
+            width: 50%;
+        }
+    }
+    @media screen and (min-width:1px) and (max-width:425) {
+        table {
+            width: 25%;
         }
     }
 </style>
@@ -327,6 +343,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#7289DA" fill-opacity="1" d="M0,224L48,240C96,256,192,288,288,304C384,320,480,320,576,288C672,256,768,192,864,138.7C960,85,1056,43,1152,48C1248,53,1344,107,1392,133.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
 
   </div>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
