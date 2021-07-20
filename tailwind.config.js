@@ -13,3 +13,6 @@ module.exports = {
   variants: {},
   plugins: [],
 }
+
+
+// so halal mode
