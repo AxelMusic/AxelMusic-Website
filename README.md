@@ -9,9 +9,6 @@ This is open source as it is hosted with GithubPages
   <img src="https://top.gg/api/widget/798927186580340766.svg" alt="AxelMusic" />
   </a>
 
-<a href="https://discord.gg/RNXU4mXQnv">
-  <img src="https://discord.com/widget?id=795642389661351957&theme=dark" alt="AxelMusic" />
-  </a>
 
 Visit [here](https://amusic.xyz)
 
